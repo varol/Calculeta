@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		044DC27C22F6004800B148E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DC27B22F6004800B148E6 /* AppDelegate.swift */; };
-		044DC27E22F6004800B148E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DC27D22F6004800B148E6 /* ViewController.swift */; };
 		044DC28022F6004900B148E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044DC27F22F6004900B148E6 /* Assets.xcassets */; };
 		044DC28322F6004900B148E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044DC28122F6004900B148E6 /* Main.storyboard */; };
+		044DC28C22F6252300B148E6 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DC28B22F6252300B148E6 /* CalculateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		044DC27822F6004800B148E6 /* Calculeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044DC27B22F6004800B148E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		044DC27D22F6004800B148E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		044DC27F22F6004900B148E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044DC28222F6004900B148E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		044DC28422F6004900B148E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044DC28522F6004900B148E6 /* Calculeta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Calculeta.entitlements; sourceTree = "<group>"; };
+		044DC28B22F6252300B148E6 /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +53,8 @@
 		044DC27A22F6004800B148E6 /* Calculeta */ = {
 			isa = PBXGroup;
 			children = (
+				044DC28B22F6252300B148E6 /* CalculateViewController.swift */,
 				044DC27B22F6004800B148E6 /* AppDelegate.swift */,
-				044DC27D22F6004800B148E6 /* ViewController.swift */,
 				044DC27F22F6004900B148E6 /* Assets.xcassets */,
 				044DC28122F6004900B148E6 /* Main.storyboard */,
 				044DC28422F6004900B148E6 /* Info.plist */,
@@ -133,8 +133,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044DC27E22F6004800B148E6 /* ViewController.swift in Sources */,
 				044DC27C22F6004800B148E6 /* AppDelegate.swift in Sources */,
+				044DC28C22F6252300B148E6 /* CalculateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +280,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Varol.Calculeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -299,6 +300,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Varol.Calculeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
