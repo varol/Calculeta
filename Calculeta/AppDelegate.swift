@@ -37,9 +37,7 @@ let popover = NSPopover()
  
     func constructMenu() {
         let menu = NSMenu()
-        
-        menu.addItem(NSMenuItem(title: "Quit Quotes", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
-        
+                
         statusItem.menu = menu
     }
 

@@ -11,11 +11,11 @@ import Cocoa
 class CalculateViewController: NSViewController {
 
     @IBOutlet weak var resultLabel: NSTextField!
-    
+    @IBOutlet weak var backSpaceButtonReference: NSButtonCell!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
     
     enum Operation : String {
@@ -34,12 +34,17 @@ class CalculateViewController: NSViewController {
     var isMax = false
     var resultsArray = [String]()
     let label = NSTextField(frame: CGRect(x: 0, y: 248, width: 225, height: 100))
-
+    
     @IBAction func terminateButton(_ sender: Any) {
         exit(1)
-        
     }
     
+    @IBAction func backSpace(_ sender: Any) {
+        
+        //transparan yaptım, storyboardda görünmüyor.
+        runningNumber = String(runningNumber.dropLast())
+        resultLabel.stringValue = runningNumber
+    }
     @IBAction func historyButton(_ sender: Any) {
          if isMax == false {
             view.bounds.size.height += 100
@@ -61,12 +66,13 @@ class CalculateViewController: NSViewController {
     
     
     @IBAction func buttonPressed(_ sender: NSButton) {
-        if resultLabel.stringValue == "0" || resultLabel.stringValue == "x" || resultLabel.stringValue == "-" || resultLabel.stringValue == "+" || resultLabel.stringValue == "/"{
+        if resultLabel.stringValue == "0" || resultLabel.stringValue == "x" || resultLabel.stringValue == "-" || resultLabel.stringValue == "+" || resultLabel.stringValue == "/" {
             resultLabel.stringValue = ""
         }
-        resultLabel.uzunlukAyarla()
-        runningNumber += "\(sender.tag)"
-        resultLabel.stringValue = runningNumber
+        
+        resultLabel.uzunlukAyarla() //extension devreye giriyor.
+        runningNumber += "\(sender.tag)" //hesaplanacak rakamlar ekleniyor
+        resultLabel.stringValue = runningNumber //label'a basılıyor.
     }
     
     @IBAction func commaButton(_ sender: Any) {
@@ -85,7 +91,6 @@ class CalculateViewController: NSViewController {
     @IBAction func addButton(_ sender: Any) {
         
         if resultLabel.stringValue != "0" {
-            currentOperation = .Empty
             processOperation(operation: .Add)
             resultLabel.stringValue = currentOperation.rawValue
 
@@ -94,7 +99,6 @@ class CalculateViewController: NSViewController {
     
     @IBAction func subtractButton(_ sender: Any) {
         if resultLabel.stringValue != "0" {
-            currentOperation = .Empty
             processOperation(operation: .Subtract)
             resultLabel.stringValue = currentOperation.rawValue
          }
@@ -102,21 +106,17 @@ class CalculateViewController: NSViewController {
     
     @IBAction func multiplyButton(_ sender: Any) {
         if resultLabel.stringValue != "0" {
-            currentOperation = .Empty
             processOperation(operation: .Multiply)
             resultLabel.stringValue = currentOperation.rawValue
         }
     }
     
     @IBAction func divideButton(_ sender: Any) {
-        
         if resultLabel.stringValue != "0" {
-            currentOperation = .Empty
             processOperation(operation: .Divide)
             resultLabel.stringValue = currentOperation.rawValue
+
         }
-
-
     }
     
     @IBAction func clearButton(_ sender: Any) {
@@ -142,67 +142,47 @@ class CalculateViewController: NSViewController {
     func processOperation (operation : Operation) {
 
         if currentOperation != Operation.Empty {
-            if runningNumber != ""{
+            if runningNumber != "" {
                 rightValueStr = runningNumber
                 runningNumber = ""
 
 
                 if currentOperation == Operation.Multiply {
- 
-                    
                         result = "\(Double(leftValStr)! * Double (rightValueStr)!)"
                         insertToArray(result: "\(leftValStr) \(currentOperation.rawValue) \(rightValueStr) = \(result)")
                         
                         leftValStr = ""
 
-                  
-                    
-
                 } else if currentOperation == Operation.Divide {
                     result = "\(Double(leftValStr)! / Double (rightValueStr)!)"
                     insertToArray(result: "\(leftValStr) \(currentOperation.rawValue) \(rightValueStr) = \(result)")
-
                     leftValStr = ""
-
-                    
                 } else if currentOperation == Operation.Subtract {
                     result = "\(Double(leftValStr)! - Double (rightValueStr)!)"
                     insertToArray(result: "\(leftValStr) \(currentOperation.rawValue) \(rightValueStr) = \(result)")
-
                     leftValStr = ""
-
-                    
                 } else if currentOperation == Operation.Add {
                     result = "\(Double(leftValStr)! + Double (rightValueStr)!)"
                     insertToArray(result: "\(leftValStr) \(currentOperation.rawValue) \(rightValueStr) = \(result)")
-
                     leftValStr = ""
-
                 }
-                
                 leftValStr = result
                 resultLabel.stringValue = result
-                
             }
             currentOperation = operation
-            
         } else {
             leftValStr = runningNumber
             runningNumber = ""
             currentOperation = operation
-            
         }
-
         resultLabel.uzunlukAyarla()
     }
     
     
     func insertToArray(result: String){
-
         if resultsArray.count < 5 {
             resultsArray.append(result)
         } else {
-
             resultsArray.insert(result, at: 0)
             resultsArray.remove(at: 5)
          }

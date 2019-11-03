@@ -695,6 +695,7 @@
                                 <buttonCell key="cell" type="square" title="8" bezelStyle="shadowlessSquare" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="R1y-z0-X6n">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">8</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="buttonPressed:" target="XfG-lQ-9wD" id="eKa-YQ-AYo"/>
@@ -706,6 +707,7 @@
                                 <buttonCell key="cell" type="square" title="9" bezelStyle="shadowlessSquare" imagePosition="left" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" inset="2" id="1r6-iU-bIG">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">9</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="buttonPressed:" target="XfG-lQ-9wD" id="ehg-AJ-uTM"/>
@@ -717,6 +719,7 @@
                                 <buttonCell key="cell" type="square" title="5" bezelStyle="shadowlessSquare" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="QwM-vZ-jVT">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">5</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="buttonPressed:" target="XfG-lQ-9wD" id="HVo-E5-zT9"/>
@@ -728,6 +731,7 @@
                                 <buttonCell key="cell" type="square" title="6" bezelStyle="shadowlessSquare" imagePosition="left" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" inset="2" id="vEl-0d-GSI">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">6</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="buttonPressed:" target="XfG-lQ-9wD" id="bQO-RG-D81"/>
@@ -739,6 +743,7 @@
                                 <buttonCell key="cell" type="square" title="1" bezelStyle="shadowlessSquare" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gS1-XC-vhY">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">1</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="buttonPressed:" target="XfG-lQ-9wD" id="Aco-Yv-QDM"/>
@@ -750,6 +755,7 @@
                                 <buttonCell key="cell" type="square" title="2" bezelStyle="shadowlessSquare" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="XGk-9E-zs4">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">2</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="buttonPressed:" target="XfG-lQ-9wD" id="qWe-y4-F2y"/>
@@ -761,6 +767,7 @@
                                 <buttonCell key="cell" type="square" title="3" bezelStyle="shadowlessSquare" imagePosition="left" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" inset="2" id="xsy-fb-ery">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">3</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="buttonPressed:" target="XfG-lQ-9wD" id="7Lz-Yt-S3z"/>
@@ -772,6 +779,7 @@
                                 <buttonCell key="cell" type="square" title="0" bezelStyle="shadowlessSquare" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7QB-Lm-idG">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">0</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="buttonPressed:" target="XfG-lQ-9wD" id="MkV-Wo-gB8"/>
@@ -783,6 +791,7 @@
                                 <buttonCell key="cell" type="square" title="," bezelStyle="shadowlessSquare" imagePosition="left" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" inset="2" id="dyS-92-twh">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">,</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="commaButton:" target="XfG-lQ-9wD" id="GZj-aB-yP7"/>
@@ -794,6 +803,7 @@
                                 <buttonCell key="cell" type="square" title="/" bezelStyle="shadowlessSquare" imagePosition="left" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" inset="2" id="OHF-xi-vYh">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">/</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="divideButton:" target="XfG-lQ-9wD" id="JoN-Qs-PMY"/>
@@ -805,6 +815,7 @@
                                 <buttonCell key="cell" type="square" title="x" bezelStyle="shadowlessSquare" imagePosition="left" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" inset="2" id="1BE-HZ-wSa">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">*</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="multiplyButton:" target="XfG-lQ-9wD" id="tjr-Qp-PKG"/>
@@ -816,6 +827,7 @@
                                 <buttonCell key="cell" type="square" title="-" bezelStyle="shadowlessSquare" imagePosition="left" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" inset="2" id="XLu-3t-cNH">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">-</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="subtractButton:" target="XfG-lQ-9wD" id="god-IG-V5I"/>
@@ -827,6 +839,7 @@
                                 <buttonCell key="cell" type="square" title="+" bezelStyle="shadowlessSquare" imagePosition="left" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" inset="2" id="yUs-cz-kve">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">+</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="addButton:" target="XfG-lQ-9wD" id="Y0D-zX-wPb"/>
@@ -838,6 +851,9 @@
                                 <buttonCell key="cell" type="square" title="=" bezelStyle="shadowlessSquare" imagePosition="left" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" inset="2" id="EgQ-Ws-Pbu">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
                                 </buttonCell>
                                 <color key="contentTintColor" name="systemYellowColor" catalog="System" colorSpace="catalog"/>
                                 <connections>
@@ -850,6 +866,9 @@
                                 <buttonCell key="cell" type="square" title="AC" bezelStyle="shadowlessSquare" imagePosition="left" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" inset="2" id="Nyq-9o-9XO">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="clearButton:" target="XfG-lQ-9wD" id="a19-bs-o4R"/>
@@ -861,6 +880,7 @@
                                 <buttonCell key="cell" type="square" title="7" bezelStyle="shadowlessSquare" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="cKP-WH-x8g">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">7</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="buttonPressed:" target="XfG-lQ-9wD" id="UBc-bT-hpo"/>
@@ -872,6 +892,7 @@
                                 <buttonCell key="cell" type="square" title="4" bezelStyle="shadowlessSquare" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Huc-oX-PwA">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="20"/>
+                                    <string key="keyEquivalent">4</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="buttonPressed:" target="XfG-lQ-9wD" id="Uq0-UV-W4b"/>
@@ -883,13 +904,15 @@
                                 <buttonCell key="cell" type="square" title="History" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hzS-d1-lsp">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent">h</string>
+                                    <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="historyButton:" target="XfG-lQ-9wD" id="qSr-vS-PIu"/>
                                 </connections>
                             </button>
                             <textField autoresizesSubviews="NO" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KxK-M5-Yh5">
-                                <rect key="frame" x="-1" y="202" width="226" height="50"/>
+                                <rect key="frame" x="-1" y="202" width="226" height="46"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" borderStyle="border" alignment="right" title="0" drawsBackground="YES" usesSingleLineMode="YES" id="FEV-em-ScP">
                                     <font key="font" metaFont="system" size="38"/>
@@ -903,14 +926,31 @@
                                 <buttonCell key="cell" type="square" title="Quit" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="nNY-Ej-2dm">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent">q</string>
+                                    <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                     <connections>
                                         <action selector="terminateButton:" target="XfG-lQ-9wD" id="Jul-jX-aAT"/>
                                     </connections>
                                 </buttonCell>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FxS-4s-j5Z">
+                                <rect key="frame" x="0.0" y="-7" width="12" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="kFG-ZE-832">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+CA
+</string>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="backSpace:" target="XfG-lQ-9wD" id="wZT-ey-Qhu"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="backSpaceButtonReference" destination="kFG-ZE-832" id="3BP-CS-Kua"/>
                         <outlet property="resultLabel" destination="KxK-M5-Yh5" id="Eek-yw-ops"/>
                     </connections>
                 </viewController>
